@@ -6,7 +6,7 @@
 This project is a follow up to my previous 2D Boids simulation made in python. Here I added more complex collision behaviors 
 to the boids as well as tweaked boid sensory input to align more with the principles of Reynolds' paper.
 
-##What are boids?
+## What are boids?
 
 Boids are "bird-oid" objects that exhibit flock like motion. The key idea behinds boids is that they are atomized units
 that together simulate complex behavior. To create emergent behavior boids must abide by two fundamental rules:
@@ -16,13 +16,13 @@ that together simulate complex behavior. To create emergent behavior boids must 
 
 Wikipedia has good graphics explaining cohesion, separation and alignment:
 
-###Separation
+### Separation
 [<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_separation.gif">](https://en.wikipedia.org/)
 
-###Cohesion
+### Cohesion
 [<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_cohesion.gif">](https://en.wikipedia.org/)
 
-##Alignment
+### Alignment
 [<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_alignment.gif">](https://en.wikipedia.org/)
 
 
