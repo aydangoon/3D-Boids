@@ -21,11 +21,14 @@ Wikipedia has good graphics explaining cohesion, separation and alignment:
      alt="Separation"/>
 
 ### Cohesion
-[<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_cohesion.gif">](https://en.wikipedia.org/)
+<img src="cohesion.gif"
+     alt="Cohesion"/>
 
 ### Alignment
-[<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_alignment.gif">](https://en.wikipedia.org/)
-
+<img src="alignment.gif"
+     alt="Alignment"/>
+     
+The red arrow denotes the force the boid object experiences.
 
 I'm pretty happy with how this turned out but I plan to work on some improvements. Primarily this simulation is not so easy on the computer as iterating through the boids is O(n^2). Additionally I used Sebastian Lague's algorithm for generalizing
 points on a sphere and for a large number of points this can be a lot of computational work. There's likely a better way to
