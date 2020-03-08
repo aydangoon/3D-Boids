@@ -17,9 +17,8 @@ that together simulate complex behavior. To create emergent behavior boids must 
 Wikipedia has good graphics explaining cohesion, separation and alignment:
 
 ### Separation
-<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_separation.gif"
-     alt="Separation"
-     style="float: left; margin-right: 10px;" />
+<img src="separation.gif"
+     alt="Separation"/>
 
 ### Cohesion
 [<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_cohesion.gif">](https://en.wikipedia.org/)
